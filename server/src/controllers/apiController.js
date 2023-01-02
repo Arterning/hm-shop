@@ -11,18 +11,15 @@ exports.getlunbo = (req, res) => {
     status: successState, message: [{
 		id: 1,
       url: 'http://www.itcast.cn/subject/phoneweb/index.html',
-      // img: 'http://www.liulongbin.top:3005/images/lunbo1-min.jpg'
-		img: 'http://www.itcast.cn/subject/webzly/images/1.jpg'
+		  img: 'http://localhost:8082/images/lunbo1.jpg'
     }, {
 		id: 2,
       url: 'http://www.itcast.cn/subject/phoneweb/index.html',
-      // img: 'http://www.liulongbin.top:3005/images/lunbo2-min.jpg'
-		img: 'http://www.itcast.cn/subject/webzly/images/1.2.jpg'
+		  img: 'http://localhost:8082/images/lunbo2.jpg'
     }, {
 		id: 3,
       url: 'http://www.itcast.cn/subject/phoneweb/index.html',
-      // img: 'http://www.liulongbin.top:3005/images/lunbo3-min.jpg'
-		img: 'http://www.itcast.cn/images/newslide/homepageandphone/20185609105606277.jpg'
+		  img: 'http://localhost:8082/images/lunbo3.jpg'
     }]
   }
 
